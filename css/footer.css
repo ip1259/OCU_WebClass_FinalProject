@@ -1,0 +1,11 @@
+div.footer{
+    height: 200px;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+div.footer p{
+    font-size: 24px;
+    color: blanchedalmond;
+    padding: 20px;
+}

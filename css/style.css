@@ -5,8 +5,9 @@ body{
     background-attachment: fixed;
 }
 #wrap{
-    width: 1400px;
+    width: 100%;
     min-height: 850px;
+    min-width: 600px;
     max-width: 1400px;
     /* background-color: rgba(0, 0, 0, 0.3); */
     margin: 30px auto;

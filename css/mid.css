@@ -1,0 +1,40 @@
+.mid{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+.sidebar_menu li{
+    list-style: none;
+    margin: 20px auto;
+    text-align: center;
+}
+ul.sidebar_menu{
+    padding: 0px;
+}
+.sidebar_menu li>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;  
+}
+.sidebar_menu li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.sidebar_menu li>a:hover{
+    color: white;
+    font-size: 36px;
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    flex: 1;
+    float: left;
+}
+.content{
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+div.content{
+    padding: 50px;
+}

@@ -55,6 +55,11 @@ ul.sidebar_menu{
     flex: 3;
     /* border: 1px black solid; */
 }
+.picDscrption h3{
+    display: inline-block;
+    margin-right: 30px;
+    margin-block: 0;
+}
 .picDscrption p{
     text-indent: 66px;
     letter-spacing: 3px;

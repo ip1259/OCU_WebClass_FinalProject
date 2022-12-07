@@ -1,0 +1,21 @@
+body html{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.bgImage{
+    background-image: url(../images/background.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}

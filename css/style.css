@@ -1,18 +1,13 @@
-body{
-    background-image: url(../images/background.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-#wrap{
-    width: 100%;
-    min-height: 850px;
-    min-width: 600px;
-    max-width: 1400px;
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    margin: 30px auto;
-    /* border-radius: 20px; */
-    position: relative;
+.wrap{
+    width: 80%;
+    /* min-height: 850px; */
+    /* min-width: 600px; */
+    /* max-width: 1400px; */
+    /* margin: 30px auto; */
+    position: absolute;
+    top: 20px;
+    left:10%;
+    z-index: 2;
 }
 .header{
     background-color: rgba(0, 0, 0, 0.3);
@@ -26,12 +21,12 @@ body{
     /* border: 1px black solid; */
 }
 
-#headLOGO{
+.headLOGO{
     flex: 2;
     margin: auto;
 }
 
-#headLOGO img[alt="logo"]{
+.headLOGO img[alt="logo"]{
     width: 200px;
     height: auto;
     border-radius: 10px;

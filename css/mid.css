@@ -28,6 +28,8 @@ ul.sidebar_menu{
     border-radius: 10px;
     flex: 1;
     float: left;
+    height: fit-content;
+    min-height: 600px;
 }
 .content{
     flex: 3;

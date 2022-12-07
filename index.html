@@ -31,13 +31,15 @@
         <div class="mid">
             <div class="sidebar">
                 <ul class="sidebar_menu">
-                    <li><a href="" id="sidebarlst_0">The Castle</a></li>
-                    <li><button onclick="cha">Rocks</button></li>
-                    <li><a href="javascript:changePicture(1)" id="sidebarlst_1">Rocks</a></li>
+                    <li><a href="javascript:void(0)" id="lstPic_0" onclick="">The Castle</a></li>
+                    <li><a href="javascript:void(0)" id="lstPic_1" onclick="">Rocks</a></li>
                     <li><a href="#">300000</a></li>
                     <li><a href="#">400000</a></li>
                 </ul>
             </div>
+            <script>
+                document.getElementsByClassName("sidebar_menu").item(0).innerHTML = sidebarList(_pictures)
+            </script>
             <div class="content">
                 <div class="picture">
                     <h1 id="_picTitle">The Castle</h1>

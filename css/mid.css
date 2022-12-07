@@ -24,20 +24,56 @@ ul.sidebar_menu{
     font-size: 36px;
 }
 .sidebar{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     flex: 1;
     float: left;
-    height: fit-content;
+    /* height: fit-content; */
     min-height: 600px;
 }
 .content{
     flex: 3;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-left: 10px;
-}
-div.content{
+    display: flex;
     padding: 50px;
     font-size: 24px;
+    color:cornsilk;
 }
+.picture{
+    flex: 3;
+    /* border: 1px black solid; */
+}
+.content h1{
+    text-align: center;
+}
+.picture img{
+    width: 100%;
+}
+.picDscrption{
+    flex: 3;
+    /* border: 1px black solid; */
+}
+.picDscrption p{
+    text-indent: 66px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 30px;
+    /* color:cornsilk; */
+}
+.contentBlank{
+    flex: 1;
+    /* border: 1px black solid; */
+}
+@media (max-width: 1400px) {
+    .content{
+        flex-direction: column;
+    }
+    .picture, .picDscrption{
+      flex: 1;
+    }
+    .contentBlank{
+        flex: 0;
+    }
+  }

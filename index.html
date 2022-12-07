@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mid.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="scripts/picInfos.js"></script>
+    <script src="scripts/page_picture.js"></script>
     <title>張晁銓の個人作品</title>
 </head>
 <body>
@@ -29,15 +31,16 @@
         <div class="mid">
             <div class="sidebar">
                 <ul class="sidebar_menu">
-                    <li><a href="#">The Castle</a></li>
-                    <li><a href="#">200000</a></li>
+                    <li><a href="" id="sidebarlst_0">The Castle</a></li>
+                    <li><button onclick="cha">Rocks</button></li>
+                    <li><a href="javascript:changePicture(1)" id="sidebarlst_1">Rocks</a></li>
                     <li><a href="#">300000</a></li>
                     <li><a href="#">400000</a></li>
                 </ul>
             </div>
             <div class="content">
                 <div class="picture">
-                    <h1>The Castle</h1>
+                    <h1 id="_picTitle">The Castle</h1>
                     <figure>
                         <img id="_picDisplay" src="images/castle_lake_forest.jpg" alt="">
                     </figure>

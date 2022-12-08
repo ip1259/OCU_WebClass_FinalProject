@@ -7,11 +7,10 @@ function changePicture(pic_id){
 }
 
 function sidebarList(_pictures){
-    let pictures = Array.from(_pictures)
     let output = ""
     let i = 0
-    pictures.forEach(element => {
-        output += '<li><a href="javascript:changePicture('+ i +')" id="lstPic_'+i+'" onclick="">'+element.title+'</a></li>\n'
+    _pictures.forEach(element => {
+        output += '<li><a href="javascript:changePicture('+ i +')" id="lstPic_'+i+'">'+element.title+'</a></li>\n'
         i++
     });
     return output

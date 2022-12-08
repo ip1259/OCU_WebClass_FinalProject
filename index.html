@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="scripts/picInfos.js"></script>
     <script src="scripts/page_picture.js"></script>
+    <script src="scripts/navMenu.js"></script>
     <title>張晁銓の個人作品</title>
 </head>
 <body>
@@ -30,38 +31,37 @@
         </div>
         <div class="mid">
             <div class="sidebar">
-                <h1 id="sidebar_title">圖像創作</h1>
+                <h1 id="sidebar_title">SidebarMenu</h1>
                 <ul class="sidebar_menu">
-                    <li><a href="javascript:void(0)" id="lstPic_0" onclick="">The Castle</a></li>
-                    <li><a href="javascript:void(0)" id="lstPic_1" onclick="">Rocks</a></li>
                 </ul>
             </div>
-            <script>
-                document.getElementsByClassName("sidebar_menu").item(0).innerHTML = sidebarList(_pictures)
-            </script>
             <div class="content">
-                <div class="picture">
-                    <h1 id="_picTitle">The Castle</h1>
+                <div class="picture" style="display:none ;">
+                    <h1 id="_picTitle">Picture Title</h1>
                     <figure>
                         <img id="_picDisplay" src="images/castle_lake_forest.jpg" alt="">
                     </figure>
                 </div>
-                <div class="picDscrption">
+                <div id="dVideo" style="display: none;">
+                    <h1 id="_videoTitle">Video Title</h1>
+                    <figure>
+                        <video id="_videoDisplay" src=""></video>
+                    </figure>
+                </div>
+                <div class="dscrption" style="display:none ;">
                     <h1>簡介</h1>
-                    <h3>作者</h3><h3 id="_picAuthor">Albert Itelas Wombo</h3>
-                    <div id="_picDscrp">
-                        <p>創作於2001年,取材於歐洲某座森林湖畔,取實景的自然場景與幻想的湖中古堡,
-                            構建出了中世紀奇幻風格的畫作。
-                        </p>
-                        <p>人跡罕至的森林內部,卻有著燈火通明的城堡,森林的寂靜與城堡內的喧囂,
-                            周遭森林的雲霧瀰漫而城堡卻清晰可見,觀賞整幅畫作,你可以感覺到寧靜,
-                            觀察城堡時卻又好像人聲鼎沸,矛盾與衝突融合在自然之中。
-                        </p>
+                    <h3>作者</h3><h3 id="_author"></h3>
+                    <div id="_dscrp">
+                        
                     </div>
                 </div>
                 
             </div>
         </div>
+        <script>
+            setNavFunc()
+            picturesPage()
+        </script>
         <div class="footer">
             <p>其實關於這個網站...</p>
         </div>

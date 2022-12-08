@@ -46,15 +46,11 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-left: 10px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     padding: 50px;
     font-size: 24px;
     color:cornsilk;
-}
-.picture{
-    flex: 3;
-    /* border: 1px black solid; */
 }
 .content h1{
     text-align: center;
@@ -63,19 +59,20 @@
     max-width: 500px;
     width: 100%;
 }
-.picture figure{
+.dVideo video{
+    max-width: 720px;
+    width: 100%;
+}
+.content figure{
     text-align: center;
 }
-.picDscrption{
-    flex: 3;
-    /* border: 1px black solid; */
-}
-.picDscrption h3{
+
+.dscrption h3{
     display: inline-block;
     margin-right: 30px;
     margin-block: 0;
 }
-.picDscrption p{
+.dscrption p{
     text-indent: 66px;
     letter-spacing: 3px;
     line-height: 50px;

@@ -1,12 +1,11 @@
-
 function changePicture(pic_id){
     document.getElementById("_picDisplay").src = _pictures[pic_id].src
     document.getElementById("_picTitle").innerHTML = _pictures[pic_id].title;
-    document.getElementById("_picAuthor").innerHTML = _pictures[pic_id].author;
-    document.getElementById("_picDscrp").innerHTML = _pictures[pic_id].description;
+    document.getElementById("_author").innerHTML = _pictures[pic_id].author;
+    document.getElementById("_dscrp").innerHTML = _pictures[pic_id].description;
 }
 
-function sidebarList(_pictures){
+function sidebarList_pic(_pictures){
     let output = ""
     let i = 0
     _pictures.forEach(element => {

@@ -12,11 +12,26 @@
     .logo {
         height: 50px;
     }
+    .nav-item-text{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 610px){
+    .logo {
+        height: 100px;
+    }
+    .nav-item-text{
+        display: inline-block;
+    }
 }
 
 @media only screen and (min-width: 992px){
     .logo {
         height: 100px;
+    }
+    .nav-item-text{
+        display: inline-block;
     }
 }
 
@@ -24,12 +39,16 @@
     .logo {
         height: 150px;
     }
+    .nav-item-text{
+        display: inline-block;
+    }
 }
 .header{
     width: 100%;
     padding: 10px;
     background-color: #28AFB0;
     box-shadow: 16px 8px rgba(121, 121, 121, 0.5);
+    text-align: center;
 }
 .nav{
     background-color: #565264;

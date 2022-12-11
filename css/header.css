@@ -15,9 +15,28 @@
     .nav-item-text{
         display: none;
     }
+    .logo-hide{
+        display: none;
+    }
 }
 
-@media only screen and (min-width: 610px){
+@media only screen and (min-width: 355px)
+{
+    .logo-hide{
+        display: unset;
+    }
+}
+
+@media only screen and (min-width: 480px){
+    .logo {
+        height: 50px;
+    }
+    .nav-item-text{
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 630px){
     .logo {
         height: 100px;
     }

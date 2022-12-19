@@ -1,0 +1,31 @@
+.no-line-height{
+    line-height:unset !important;
+}
+.font-size-inherit{
+    font-size: inherit;
+}
+.color-inherit{
+    color: inherit;
+}
+.inline{
+    display: inline-flex;
+}
+.inline i{
+    margin: 0 5px;
+}
+.glowing-shadow{
+    box-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px darkblue;
+}
+.logo{
+    height: 150px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.head{
+    background-image: url("../images/HeadImg_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position-y:-50px; */
+    width: 100%;
+    /* min-height: 30%; */
+}

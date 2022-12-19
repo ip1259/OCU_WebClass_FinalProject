@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    height: 64px;
+    background-color: transparent;
+    box-shadow: none;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+div.slider,
+div.slider img,
+div.slider ul,
+div.slider li {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}

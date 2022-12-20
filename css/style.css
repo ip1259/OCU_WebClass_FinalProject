@@ -31,3 +31,17 @@ div.slider li {
     bottom: 0;
     width: 100%;
 }
+
+.nav-wrapper .logo{
+    margin: 10px;
+}
+
+.nav-wrapper a{
+    color: inherit;
+}
+
+#arrow{
+    position: absolute;
+    bottom: 3%;
+    z-index:3;
+}

@@ -9,8 +9,8 @@
 
     // Handle navbar animation
     function animateNav() {
-        if (window.pageYOffset > navHeight) { nav.classList.add('blue', 'darken-4', 'shadow') }
-        else { nav.classList.remove('blue', 'darken-4', 'shadow') }
+        if (window.pageYOffset > navHeight) { nav.classList.add('teal', 'accent-2', 'shadow') }
+        else { nav.classList.remove('teal', 'accent-2', 'shadow') }
     }
 
     window.addEventListener('scroll', () => {

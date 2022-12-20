@@ -21,6 +21,9 @@ header {
     width: 100%;
     min-height: 100vh;
 }
+header a{
+    color: unset;
+}
 
 div.slider,
 div.slider img,
@@ -41,7 +44,9 @@ div.slider li {
 }
 
 #arrow{
+    color: inherit;
     position: absolute;
     bottom: 3%;
     z-index:3;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px whitesmoke;
 }

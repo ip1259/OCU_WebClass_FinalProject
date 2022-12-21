@@ -51,3 +51,11 @@ div.slider li {
     z-index:3;
     text-shadow:  0 0 5px whitesmoke;
 }
+
+#Albert>h2:hover .hover-HL{
+    opacity: 1;
+    color: rgb(255, 94, 228);
+}
+.invisable{
+    opacity: 0;
+}

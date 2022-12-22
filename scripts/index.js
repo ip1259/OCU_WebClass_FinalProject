@@ -41,7 +41,7 @@
         let card = '<div class="col s12 m6 xl4">\
                 <div ' + 'id="' + element.id + '" ' + 'class="card large">\
                     <div class="card-image">\
-                        <img src="' + element.src + '" alt="" class="materialboxed">\
+                        <img src="' + element.src + '" alt="" class="materialboxed cursor-pointer">\
                         <span class="card-title">'+ element.title + '</span>\
                     </div>\
                     <div class="card-content">'+

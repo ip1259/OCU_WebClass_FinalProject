@@ -36,4 +36,8 @@
     observer.observe(document.querySelector('.observe-wrapper'));
     observer.observe(document.querySelectorAll('.observe-wrapper')[1]);
 
+    img_datas.forEach(element => {
+        
+    });
+    $('#img-content').append()
 })()

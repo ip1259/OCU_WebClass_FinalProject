@@ -20,7 +20,6 @@
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             const albert = entry.target.querySelector('.onObserve');
-
             if (entry.isIntersecting) {
                 albert.classList.add('animate__animated');
                 albert.classList.add('animate__fadeInRight');
@@ -32,9 +31,23 @@
             albert.classList.remove('animate__fadeInRight');
         });
     });
+    const observer_s = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const fdinlft = entry.target.querySelector('.fadeinleft');
+            if (entry.isIntersecting) {
+                fdinlft.classList.add('animate__animated');
+                fdinlft.classList.add('animate__fadeInLeft');
+                return; // if we added the class, exit the function
+            }
+
+            // We're not intersecting, so remove the class!
+            fdinlft.classList.remove('animate__animated');
+            fdinlft.classList.remove('animate__fadeInLeft');
+        });
+    });
 
     observer.observe(document.querySelector('.observe-wrapper'));
-    observer.observe(document.querySelectorAll('.observe-wrapper')[1]);
+    observer_s.observe(document.querySelectorAll('.observe-wrapper')[1]);
 
     img_datas.forEach(element => {
         // console.log(element.src)

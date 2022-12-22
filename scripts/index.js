@@ -36,30 +36,31 @@
     observer.observe(document.querySelector('.observe-wrapper'));
     observer.observe(document.querySelectorAll('.observe-wrapper')[1]);
 
-    img_datas_albert.forEach(element => {
+    img_datas.forEach(element => {
         // console.log(element.src)
         let card = '<div class="col s12 m6 xl4">\
-                <div ' + 'id="' + element.id +'" ' + 'class="card large">\
+                <div ' + 'id="' + element.id + '" ' + 'class="card large">\
                     <div class="card-image">\
                         <img src="' + element.src + '" alt="" class="materialboxed">\
                         <span class="card-title">'+ element.title + '</span>\
                     </div>\
                     <div class="card-content">'+
-                        element.short
-                        +
-                    '</div>\
+            element.short
+            +
+            '</div>\
                     <div class="card-action activator center grey lighten-4 cursor-pointer"><i\
                             class="material-icons">expand_less</i></div>\
                     <div class="card-reveal flow-text">\
-                        <span class="card-title grey-text text-darken-4">'+element.title+
-                                '<i class="material-icons right">close</i></span>'+
-                        element.detail
-                    +
-                    '</div>\
+                        <span class="card-title grey-text text-darken-4">'+ element.title +
+            '<i class="material-icons right">close</i></span>' +
+            element.detail
+            +
+            '</div>\
                 </div>\
             </div>'
-            console.log(card)
-        $('#img-content-albert').append(card)
+        console.log(card)
+        if (element.author == 'Albert Itelas Wombo')
+            $('#img-content-albert').append(card)
     });
-    
+
 })()

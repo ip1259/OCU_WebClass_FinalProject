@@ -1,4 +1,4 @@
-﻿const img_datas_albert=[
+﻿const img_datas=[
     {
         src:'images\\Albert Itelas D Wombo\\castle_lake_forest.jpg',
         id:'img-card-1',

@@ -52,17 +52,40 @@ div.slider li {
     text-shadow:  0 0 5px whitesmoke;
 }
 
+.color-inherit{
+    color: inherit;
+}
+
 #Albert{
     position: absolute;
     /* right: 5%; */
     left:74%
 }
 
-#Albert>h2:hover .hover-HL{
-    opacity: 1;
-    color: rgb(255, 94, 228);
+#Albert h2:hover .hover-HL{
+    /* opacity: 1; */
+    color: #f06292;
+    display: unset;
+}
+#Albert_s h4:hover .hover-HL{
+    /* opacity: 1; */
+    color: #f06292;
+    display: unset;
 }
 
 .invisable{
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
+}
+.cursor-pointer:hover{
+    cursor:pointer;
+}
+.activator:hover{
+    background-color: #e0e0e0 !important;
+}
+.card:hover{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    box-shadow: 5px 5px 20px rgb(95, 95, 95);
 }

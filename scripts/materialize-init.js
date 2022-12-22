@@ -11,6 +11,9 @@
 
     $('.parallax').parallax();
 
+    $('.tooltipped').tooltip();
+
+    $('.materialboxed').materialbox();
 
 
     // $('.scrollspy').scrollSpy({
